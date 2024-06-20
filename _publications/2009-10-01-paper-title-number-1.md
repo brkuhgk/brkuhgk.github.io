@@ -1,13 +1,19 @@
 ---
-title: "Paper Title Number 1"
+title: "Tracking missing objects in a video using yolo3 in cloudlet network."
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/paper-title-number-1
+excerpt: 'In this paper we propose an algorithm using YOLO3 object detection in a cloudlet network to notify missing objects in CCTV video, addressing the computational challenges of local machines.'
+date: 2021-05-08
+venue: ' Smart Technologies in Data Science and Communication '
+slidesurl: 'https://link.springer.com/chapter/10.1007/978-981-16-1773-7_30'
+paperurl: 'https://link.springer.com/chapter/10.1007/978-981-16-1773-7_30'
+citation: 'K. Boddu, S. M, and S. N. “Tracking missing objects in a video using yolo3 in cloudlet network.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+In real time, people are using CCTV for monitoring activities continuously 
+but sometimes theft is taking place. In this scenario, people need to roll back the video and 
+need to identify when it happened. But in practice, it is a difficult and time-consuming process to identify 
+a missing object in the video within the local machine because of the lack of computing resources. 
+To solve this problem, we are presenting an algorithm in this paper to notify missing objects in a video 
+offloaded from a mobile or CCTV using YOLO3 object detection in a cloudlet network. In the area of cloud computing, a cloudlet is a data center in the local network with a rich set of computing resources available for mobile users.
+
