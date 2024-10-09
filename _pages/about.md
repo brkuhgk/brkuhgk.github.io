@@ -16,7 +16,7 @@ Some of my popular projects: [Autonomous Golf cart](/portfolio/portfolio-1/), [L
 and some LLM projects (under work 🏗️).
 
 ---
-I am good at `Java`, `SQL`, `python`. I developed various backend API's using `Spring  Framwork `, `Spring Boot/MVC/Security/Data`.
+I am good at `Java`, `SQL`, `Javascript`, `Python`. I developed various backend API's using `Spring  Framwork `, `Spring Boot/MVC/Security/Data`.
 
 I developed applications with `Object-Oriented Paradigm`,`Domin-Driven Paradigm`, `Event-Driven Paradigm` for `microservices\monolith`.
 
