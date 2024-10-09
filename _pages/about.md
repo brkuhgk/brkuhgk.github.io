@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
->>> Education update : Graduated from Montclair State Universtiy, Major : Computer Science
+> Education update : Graduated from Montclair State Universtiy, Major : Computer Science
 
 I love to develop applications using AI 🤖 & Software Engineering 💻 which contribute to real world problems. 
 Some of my popular projects: [Autonomous Golf cart](/portfolio/portfolio-1/), [Low resolution Pedestrian image detection](/portfolio/portfolio-2)
@@ -24,5 +24,5 @@ some of the relational, non-relational databased I was familiar with  `Cassandra
 
 ---
 For web Applications I use `JavaScript`, `ReactJS`, `NodeJS` and `Next.js`.
->>> Update Opensource contribution:  [Open-Source-TWENTY](https://github.com/twentyhq/twenty/pull/4617).
+> Opensource contribution:  [Open-Source-TWENTY](https://github.com/twentyhq/twenty/pull/4617).
 
