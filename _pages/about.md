@@ -9,17 +9,20 @@ redirect_from:
 
 ## About Me
 
-I develop applications using AI and Software development. 
+>>> Education update : Graduated from Montclair State Universtiy, Major : Computer Science
+
+I love to develop applications using AI 🤖 & Software Engineering 💻 which contribute to real world problems. 
 Some of my popular projects: [Autonomous Golf cart](/portfolio/portfolio-1/), [Low resolution Pedestrian image detection](/portfolio/portfolio-2)
 and some LLM projects (under work 🏗️).
 
-I am good at `Java` and `SQL`, I developed various backend API's, "`Spring boot`", `Spring MVC`, `Spring Security`, `Spring Security`. 
-I tried out the `Hibernate/JPA(ORM)`  over `Spring data`.
-I developed applications in `Object oriented Programming` and  `Reactive programming`  with `RxJava`. 
-I bet you can't find a database that I did't tried, From relational to non-relational I worked with everything I tried out different database of same applications.
-some of my favourite `Cassandra`, `PostgresSql`, `MySQL` and `MangoDB`.
+---
+I am good at `Java`, `SQL`, `python`. I developed various backend API's using `Spring  Framwork `, `Spring Boot/MVC/Security/Data`.
+
+I developed applications with `Object-Oriented Paradigm`,`Domin-Driven Paradigm`, `Event-Driven Paradigm` for `microservices\monolith`.
+
+some of the relational, non-relational databased I was familiar with  `Cassandra`, `PostgresSql`, `MySQL` and `MangoDB`.
 
 ---
-`JavaScript` and  `php` are the one I started my journey with, I am good at pulling off adv `ReactJS`, `NodeJS` and `Next.js`.
-checkout my recent contribution to [Open-Source-TWENTY](https://github.com/twentyhq/twenty/pull/4617).
+For web Applications I use `JavaScript`, `ReactJS`, `NodeJS` and `Next.js`.
+>>> Update Opensource contribution:  [Open-Source-TWENTY](https://github.com/twentyhq/twenty/pull/4617).
 
