@@ -60,15 +60,27 @@ items:
   - Start a non profit organization
   - TED Talk
   - Speak in Tech Conference
-  - Be Kind, Live healty/Fit
   - Setup electronic Home Lab
+  - Get married
+  - Live in different country
+  - Hike -- finding place
+  - Provide Best HealthCare for Parents
+  - Work in Casino
+  - Zero gravity
+  - Drink vodka in Russia
+  - text: Visit an Amish community
+    note: Visted in pennsylvania
+    done: true
+  - Drive fastest car in germany
+  - Be Kind, Live healty/Fit, Be awsome
+
 
 
 
 ---
 
-The rule: anything on this list has to be specific enough that I'd know when
+<!-- The rule: anything on this list has to be specific enough that I'd know when
 it's done. "Get better at drawing" doesn't count. "Fill one sketchbook" does.
 
 Add items by editing `content/lists/list-100.md`. A line can be plain text, or
-carry a note and a `done: true` flag.
+carry a note and a `done: true` flag. -->
