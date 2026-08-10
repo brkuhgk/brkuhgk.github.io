@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+import PostList from "../components/PostList.astro";
+import { publish } from "../lib/format";
+import { site } from "../../site.config";
+
+const posts = publish(await getCollection("posts"))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 6);
+---
+
+<Base>
+  <header class="page-head">
+    <h1>{site.title}</h1>
+    <p class="lede">{site.bio}</p>
+  </header>
+
+  {
+    posts.length > 0 && (
+      <>
+        <h2 style="margin-top:0">Recent writing</h2>
+        <PostList posts={posts} />
+        <p class="meta" style="margin-top:1.25rem">
+          <a href="/blog/">All posts →</a>
+        </p>
+      </>
+    )
+  }
+</Base>

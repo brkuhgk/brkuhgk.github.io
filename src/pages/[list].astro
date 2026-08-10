@@ -1,0 +1,69 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../layouts/Base.astro";
+import { publish } from "../lib/format";
+
+export async function getStaticPaths() {
+  const lists = publish(await getCollection("lists"));
+  return lists.map((list) => ({ params: { list: list.id }, props: { list } }));
+}
+
+const { list } = Astro.props;
+const { Content } = await render(list);
+
+// Items may be plain strings or objects — normalise to one shape.
+const items = list.data.items.map((raw: any) =>
+  typeof raw === "string"
+    ? { text: raw, note: undefined, link: undefined, date: undefined, done: false }
+    : raw
+);
+
+const done = items.filter((i: any) => i.done).length;
+---
+
+<Base title={list.data.title} description={list.data.summary}>
+  <header class="page-head">
+    <h1>{list.data.title}</h1>
+    {list.data.summary && <p class="lede">{list.data.summary}</p>}
+    {
+      items.length > 0 && (
+        <p class="meta">
+          {list.data.style === "checklist"
+            ? `${done} of ${items.length} done`
+            : `${items.length} ${items.length === 1 ? "item" : "items"}`}
+        </p>
+      )
+    }
+  </header>
+
+  <div class="prose">
+    <Content />
+  </div>
+
+  {
+    items.length > 0 && (
+      <ul class={`items ${list.data.style}`}>
+        {items.map((item: any) => (
+          <li class={item.done ? "is-done" : undefined}>
+            {list.data.style === "checklist" && (
+              <span class="box" aria-hidden="true" />
+            )}
+            <span class="item-body">
+              <span class="item-text">
+                {item.link ? (
+                  <a href={item.link} rel="noopener">
+                    {item.text}
+                  </a>
+                ) : (
+                  item.text
+                )}
+              </span>
+              {item.note && <span class="item-note">{item.note}</span>}
+            </span>
+            {item.date && <span class="item-date">{item.date}</span>}
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</Base>
