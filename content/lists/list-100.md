@@ -73,6 +73,7 @@ items:
     done: true
   - Drive fastest car in germany
   - Be Kind, Live healty/Fit, Be awsome
+  - Build 10k X audience
 
 
 
