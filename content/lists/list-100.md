@@ -27,6 +27,8 @@ items:
   - Drive an aeroplane
   - SkyDive
   - Underwater diving
+  - text: Get comfortable Dance in weddings
+    note: goal is to dance in all my cousins/frnds wedding
   - Be DAD
   - text: Learn Swiming
     note: get good at it
