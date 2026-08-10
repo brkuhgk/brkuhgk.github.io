@@ -4,13 +4,10 @@ summary: A hundred things to do, make, or learn before I run out of time, remind
 style: numbered
 items:
   - Learn to TIG weld
-  - text: Build a split keyboard from scratch
-    note: Corne — done, but I want a wireless v2
-    done: false
   - text: Read 100 Books
   - Ship something that 1,000 people use
   - text: See the northern lights
-    note: Tromsø, ideally in winter
+    note: for now in usa
   - Run a half marathon
   - Get own House
   - Get own Car
