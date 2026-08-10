@@ -1,23 +1,70 @@
 ---
 title: List 100
-summary: A hundred things to do, make, or learn before I run out of time.
+summary: A hundred things to do, make, or learn before I run out of time, reminding myself I dont have Infinite time to live.
 style: numbered
 items:
   - Learn to TIG weld
   - text: Build a split keyboard from scratch
     note: Corne — done, but I want a wireless v2
-    done: true
-  - text: Read Gödel, Escher, Bach end to end
-    note: Third attempt
+    done: false
+  - text: Read 100 Books
   - Ship something that 1,000 people use
   - text: See the northern lights
     note: Tromsø, ideally in winter
   - Run a half marathon
+  - Get own House
+  - Get own Car
+  - Assests of 1M
+  - Work in MANGT
+  - Contribute in top OpenSource Project
   - text: Write a compiler
     note: Even a bad one
-  - Learn enough Japanese to order dinner
-  - Print a functional 3D-printed gearbox
+  - text: Learn English Flenty
+    note: speak flenty
+  - text: Learn Guitar
+    note: attempted once, try again
+  - text: Build a 0->1 product
+  - get a patent
+  - text: Do Phd in ( Robotics/DL)
   - Sail overnight
+  - Drive an aeroplane
+  - SkyDive
+  - Underwater diving
+  - Be DAD
+  - text: Learn Swiming
+    note: get good at it
+  - text: Build Robot
+    note: not a toy robot
+  - Learn Photography
+  - Travel Japan
+  - Start a Company
+  - Bring Parent to USA
+  - Visit Kashmir
+  - Spend a night at Everest
+  - Ladakh Road Trip
+  - Meet Elon Musk
+  - Write a BOOK
+  - Publish Key research Paper in top Journel
+  - Travel Europe
+  - Spend a night in graveyard
+  - Ask Stranger Out
+  - Invite stranger for Dinner
+  - Do vipassana
+  - Road Trip in USA
+  - Body Transformation
+  - Act in movie/commercial
+  - Dance in concert
+  - Watch broadway show in NY
+  - Learn salsa
+  - Learn to cook best Biriyani
+  - Start a non profit organization
+  - TED Talk
+  - Speak in Tech Conference
+  - Be Kind, Live healty/Fit
+  - Setup electronic Home Lab
+
+
+
 ---
 
 The rule: anything on this list has to be specific enough that I'd know when

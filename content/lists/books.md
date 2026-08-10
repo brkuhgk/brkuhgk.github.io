@@ -7,7 +7,10 @@ items:
     note: Donald Norman — reading now
     date: "2026"
   - text: Thinking in Systems
-    note: Donella Meadows
+    note: Donella Meadows - reading now
+    date: "2026"
+  - text: The Fountainhead
+    note: Ayn Rand - reading now
     date: "2026"
   - text: The Soul of a New Machine
     note: Tracy Kidder — best book about shipping software, and it's about hardware

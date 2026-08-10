@@ -4,7 +4,7 @@
 // ─────────────────────────────────────────────────────────────
 
 export const site = {
-  title: "Karthik",
+  title: "MRX",
   tagline: "Notes, lists, and things I'm working on.",
 
   // Shown on the home page under your name. Markdown-ish plain text.
@@ -15,7 +15,7 @@ export const site = {
   // Footer links. Add or remove freely.
   links: [
     { label: "GitHub", href: "https://github.com/brkuhgk" },
-    { label: "Email", href: "mailto:codewithkarthik007@gmail.com" },
+    { label: "Email", href: "mailto:krk02411@gmail.com" },
     { label: "RSS", href: "/rss.xml" },
   ],
 };
