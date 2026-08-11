@@ -3,7 +3,6 @@ title: List 100
 summary: A hundred things to do, make, or learn before I run out of time, reminding myself I dont have Infinite time to live.
 style: numbered
 items:
-  - Learn to TIG weld
   - text: Read 100 Books
   - Ship something that 1,000 people use
   - text: See the northern lights
