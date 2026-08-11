@@ -26,6 +26,9 @@ items:
   - Sail overnight
   - Drive an aeroplane
   - SkyDive
+  - air balloon
+  - Take her to paris
+  - Largest rollercostor ride 
   - Underwater diving
   - text: Get comfortable Dance in weddings
     note: goal is to dance in all my cousins/frnds wedding
